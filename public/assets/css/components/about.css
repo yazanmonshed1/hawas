@@ -1,0 +1,153 @@
+.bg-title-about-div {
+    background-image: url("../../images/lightBlue-bg.png");
+    width: 100%;
+    height: 169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-about-div {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #f59b26;
+}
+.page-about-title {
+    position: absolute;
+    top: 61%;
+    right: 43%;
+}
+.about-text {
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 20px;
+    color: #707070;
+}
+.about-card-style {
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+    height: 100%;
+}
+.slider-nav div {
+    margin-top: 10px;
+}
+.slider-nav img {
+    width: 100%;
+}
+.slider-nav .slick-slide {
+    border: none !important;
+    box-shadow: none !important;
+    outline: unset !important;
+}
+.slider-nav .slick-slide:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: unset !important;
+}
+.slider-img-style {
+    border: 5px solid #52cfcc;
+}
+.about-card-title {
+    font-family: Tajawal-Bold, sans-serif;
+    color: #4682fc;
+    font-size: 20px;
+}
+.about-card-text {
+    font-family: Tajawal-Regular, sans-serif;
+    color: #707070;
+    font-size: 17px;
+}
+.circle-image {
+    width: 80%;
+}
+/* .circle-card-img{
+    position: absolute;
+    bottom: 86%;
+    right: 40%;
+} */
+.about-card-style-container img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -37px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.too-about-title {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 20px;
+    color: #4682fc;
+}
+.card-collapse-style {
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+    cursor: pointer;
+}
+.header-collapse-style {
+    background: white;
+    border-radius: 13px !important;
+    box-shadow: 0 0 8px #00000029;
+}
+.card-text-collapse {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+.title-collapse {
+    position: relative;
+    top: 12px;
+    right: 20px;
+}
+.collapse-button {
+    float: left;
+}
+.collapse-arrow-style {
+    font-size: 40px;
+    color: #707070;
+}
+.text-in-collapse {
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+
+@media (max-width: 900px) {
+    /* .circle-card-img {
+        bottom: 90%;
+        right: 35%;
+    } */
+    .page-about-title {
+        top: 47%;
+        right: 34%;
+    }
+
+    .title-about-div {
+        font-size: 25px;
+    }
+    .bg-title-about-div {
+        height: 85px;
+    }
+    .title-collapse {
+        top: 10px;
+        right: 0;
+        font-size: 16px !important;
+    }
+    .about-text {
+        font-size: 19px;
+    }
+    .slider-nav {
+        margin-top: 0;
+    }
+}
+
+.collapse-image-container {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.collapse-image-container img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

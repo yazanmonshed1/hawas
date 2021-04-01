@@ -1,0 +1,295 @@
+.bg-title-div{
+    background-image: url("../../images/orange-bg-title.png");
+    width: 100%;
+    height:169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.book-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.title-div{
+    position: relative;
+    /* top: 100px; */
+    display: flex;
+    justify-content: center;
+}
+.insideBook-img{
+    width: 20%;
+    padding-left: 25px;
+}
+.part-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 23px;
+    color: #4682FC;
+}
+.card-collapse-style{
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+    cursor: pointer;
+}
+.title-collapse{
+    position: relative;
+    top: 12px;
+    right: 20px;
+}
+.header-collapse-style{
+    background: white;
+    border-radius: 13px !important;
+    box-shadow: 0 0 8px #00000029;
+}
+.card-text-collapse{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+.collapse-button{
+    float: left;
+}
+.collapse-arrow-style{
+    font-size: 40px;
+    color: #707070;
+}
+.book-pages-img{
+    width: 100%;
+    height: 100% !important;
+}
+.image-book{
+    position: relative;
+}
+.page-opacity{
+    display: none;
+    background: #000000;
+    opacity: 0.43;
+    position: absolute;
+    top: 0;
+    width: 91%;
+    height: 100% !important;
+
+}
+.zoom-div{
+    display: none;
+    position: absolute;
+    top: 40%;
+    right: 33%;
+}
+.zoom-icon{
+    font-size: 23px;
+    color: #FFFFFF;
+}
+.zoom-text{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.image-in-zoom{
+    width: 65%;
+}
+
+
+/*Eliminates padding, centers the thumbnail */
+
+body, html {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Styles the thumbnail */
+
+a.lightbox img {
+    height: 150px;
+    border: 3px solid white;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+}
+
+/* Styles the lightbox activity, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 13%;
+    max-height: 0%;
+    max-width: 0%;
+   /* border: 3px solid white;*/
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close{
+    display: block;
+    width:50px;
+    height:50px;
+    box-sizing: border-box;
+    background: white;
+    color: orange !important;
+    text-decoration: none;
+    position: absolute;
+    top: -80px;
+    right: 16%;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an activity from the close link */
+
+a.lightbox-close:before {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 1px;
+    background: black;
+    position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an activity from the close link */
+
+a.lightbox-close:after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 1px;
+    background: black;
+    position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+}
+
+.lightbox-target:target img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+    top: 70px !important;
+}
+
+
+
+
+/* Mobile View */
+@media (max-width:900px) {
+    .bg-title-div{
+        height:65px;
+    }
+    .book-title{
+        font-size: 35px;
+    }
+    .title-div{
+        top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Responsive Screens */
+@media only screen and (min-width: 1100px) and (max-width: 1200px){
+     .page-opacity{
+         width: 84%;
+         right: 23px;
+         height: 340px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile View */
+@media (max-width:900px) {
+    .bg-title-div {
+        height: 65px;
+    }
+    .book-title{
+        font-size: 18px;
+    }
+    .title-div{
+        top: 12px
+    }
+    .page-opacity{
+        width: 82.5%;
+    }
+    .title-collapse {
+        top: 12px;
+        right: -12px !important;
+    }
+    .title-collapse{
+        font-size: 17px;
+    }
+    .image-in-zoom{
+        width: 100%;
+    }
+    .lightbox-target img{
+        bottom: 55%;
+    }
+    .lightbox-target:target a.lightbox-close {
+        top: 84px !important;
+        right: 10px;
+    }
+
+}
+

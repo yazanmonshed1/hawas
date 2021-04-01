@@ -1,0 +1,176 @@
+.platform-content-section{
+    position: relative;
+    bottom: 25px;
+}
+.card-landing-style{
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+    height: 100%;
+}
+.title-of-card{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #4682FC;
+}
+.platform-book-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 19px;
+    color: #707070;
+}
+.background-section{
+    background-image: url("../../../images/platform/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.card-background-blue-img{
+    background-image: url("../../../images/platform/blue-card-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px 13px 0 0;
+    width: 100%;
+}
+.study-book-img{
+    width: 40px;
+}
+.border-book{
+    position: absolute;
+    bottom: 0;
+    border-bottom: 10px solid #9A5802;
+    border-radius: 0 0 7px 5px;
+    box-shadow: 0 0 8px #00000064;
+    z-index: 9999;
+    width: 97%;
+    right: 7px;
+}
+.profile-img{
+    width: 90px;
+}
+.edit-profile-div{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+.edit-profile-icon{
+    font-size: 18px;
+    color: #F59B26;
+}
+.student-name{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.student-class{
+    font-family: Tajawal-Medium, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.school-name{
+    font-family: Tajawal-Medium, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.last-page-box{
+    background: #EFF4FF;
+    border-radius: 5px;
+}
+.last-page-text{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 14px;
+    color: #707070;
+}
+.book-name{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 14px;
+    color: #5F94FF;
+}
+.num-page{
+    font-family: Tajawal-Medium, sans-serif;
+    color: #707070;
+    font-size: 13px;
+}
+.practice-box{
+    background: #EFF4FF;
+    border-radius: 5px;
+}
+.practice-num{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.practice-link{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 13px;
+    padding: 2px 7px;
+    background: #F59B26;
+    color: #FFFFFF;
+    border-radius: 14px;
+}
+a.practice-link:hover{
+    color: #FFFFFF;
+}
+.practice-result{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 14px;
+    color: #707070;
+}
+.practice-result-box{
+    background: #EFF4FF;
+    border-radius: 5px;
+}
+.book-name-in-result{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 13px;
+    color: #5F94FF;
+    padding-left: 6px;
+}
+.practice-result-num{
+    font-family: Tajawal-Medium, sans-serif;
+    font-size: 13px;
+    color: #707070;
+}
+.result-practice-green {
+    border-radius: 8px;
+    background: #96E899;
+    height: 40px;
+    padding-top: 12px;
+    width: 40px;
+}
+.result-practice-blue {
+     border-radius: 8px;
+     background: #4682FC;
+     height: 40px;
+     padding-top: 12px;
+     width: 40px;
+ }
+.result-num{
+    font-family: Tajawal-Bold, sans-serif;
+    color: #FFFFFF;
+}
+.check-icon{
+    font-size: 18px;
+}
+.result-practice-red{
+    border-radius: 8px;
+    background: #F48282;
+    height: 40px;
+    padding-top: 12px;
+    width: 40px;
+}
+
+
+
+/* Mobile View */
+@media (max-width: 900px){
+    .background-section{
+        height: 75px;
+    }
+    .border-book{
+        display: none;
+    }
+    .platform-book-title{
+        font-size: 16px !important;
+    }
+}

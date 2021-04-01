@@ -1,0 +1,186 @@
+.background-profile-section {
+    background-image: url("../../../images/platform/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.profile-info-section {
+    position: relative;
+    bottom: 30px;
+}
+.back-book-profile-button-div {
+    background: #4682fc;
+    border-radius: 5px;
+    padding: 6px;
+}
+.back-book-profile-button {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+a.back-book-profile-button:hover {
+    color: #ffffff;
+}
+.image-book-in-profile-button {
+    width: 20px;
+}
+.arrow-in-profile-button {
+    width: 23px;
+}
+.card-profile-style {
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+    height: 100%;
+}
+.profile-title {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 21px;
+    color: #4682fc;
+}
+.profile-stu-user {
+    width: 25px;
+}
+.profile-stu-img {
+    width: 100%;
+    height: 100%;
+}
+.image-border {
+    border: 2px solid #f59b26;
+    border-radius: 19px;
+    box-shadow: 0 0 7px #00000029;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+}
+input.input-profile {
+    background: #eff4ff;
+    border-radius: 23px;
+    border: none;
+    width: 100%;
+    padding: 9px;
+}
+label.profile-label {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 14px;
+    color: #848484;
+}
+input.input-profile::placeholder {
+    font-family: Tajawal-Bold, sans-serif;
+    color: #707070;
+    font-size: 14px;
+    padding-right: 5px;
+}
+#class {
+    background: #eff4ff;
+    font-family: Tajawal-Bold, sans-serif;
+    border-radius: 23px;
+    border: none;
+    width: 100%;
+    padding: 13px;
+    font-size: 14px;
+    color: #707070;
+    outline: none;
+}
+#class option {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.select-arrow {
+    position: absolute;
+    top: 33px;
+    background-color: transparent;
+    left: 17px;
+    font-size: 24px;
+    color: #707070;
+    pointer-events: none;
+    border-radius: 23px;
+    padding-left: 18px;
+}
+.change-text {
+    font-family: Tajawal-Bold, sans-serif;
+    color: #52cfcc;
+    font-size: 18px;
+}
+.change-border-div {
+    border-radius: 7px;
+    border: 1px solid #dbdbdb;
+}
+.change-button {
+    font-family: Tajawal-Bold, sans-serif;
+    border-radius: 23px;
+    background-color: #52cfcc;
+    border: none;
+    box-shadow: 0 0 7px #00000029;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+    padding: 9px 10px 6px 10px;
+}
+.forgot-password-text {
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 12px;
+    color: #848484;
+}
+.contact-profile {
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 12px;
+    color: #848484;
+}
+a.contact-profile:hover {
+    color: #848484;
+}
+.save-change-button {
+    font-family: Tajawal-Bold, sans-serif;
+    background-color: #4682fc;
+    font-size: 12px;
+    box-shadow: 0 0 7px #00000029;
+    color: #ffffff;
+    border: none;
+    padding: 9px 25px 9px 25px;
+    border-radius: 23px;
+}
+#upload-img {
+    background: none;
+    outline: none;
+    opacity: 0;
+    width: 0;
+}
+.upload-div {
+    position: relative;
+    bottom: 9px;
+    display: inline-block;
+}
+.change-img {
+    font-family: Tajawal-Medium, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #707070;
+}
+.delete-img {
+    font-family: Tajawal-Medium, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #f52626;
+}
+a.delete-img:hover {
+    color: #f52626;
+}
+.border-between {
+    border-right: 1px solid #707070;
+}
+
+@media (max-width: 900px) {
+    .background-profile-section {
+        height: 85px;
+    }
+}
+.upload-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+}

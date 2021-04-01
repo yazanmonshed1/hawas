@@ -1,0 +1,55 @@
+.bg-title-channel-div{
+    background-image: url("../../images/blue-bg-title.png");
+    width: 100%;
+    height:169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-page-div{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #F59B26;
+}
+.page-channel-title{
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: center;
+   /* position: absolute;
+    top: 61%;
+    right: 43%;*/
+}
+.text-channel-page{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 22px;
+    color: #707070;
+}
+.channel-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 23px;
+    color: #4682FC;
+}
+.video-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+.youtube-iframe{
+    width: 100%;
+    height: 275px;
+}
+@media (max-width:900px) {
+    .bg-title-channel-div {
+        height: 65px;
+    }
+    .title-page-div{
+        font-size: 20px;
+    }
+    .page-channel-title{
+        top: 33px;
+    }
+    .text-channel-page{
+        font-size: 19px;
+    }
+
+}

@@ -1,0 +1,184 @@
+.bg-title-div{
+    background-image: url("../../images/blue-bg-title.png");
+    width: 100%;
+    height:169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.book-type{
+    opacity: 0.5;
+}
+.book-type-active{
+    opacity: 1;
+}
+.sure-login-modal{
+    right: 8px;
+    top: 8px;
+    height: 411px;
+}
+.page-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #F59B26;
+}
+.title-div{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+  /*  position: absolute;
+    top: 61%;
+    right: 44%;*/
+}
+.border_nav{
+    border: none;
+}
+.card_style_boxes{
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+}
+.blue-border-card-body{
+    border-top: 13px solid #4682FC;
+    border-radius: 13px;
+}
+.orange-border-card-body{
+    border-top: 13px solid #F59B26;
+    border-radius: 13px;
+
+}
+.blue_box_title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 17px;
+    color: #4682FC;
+}
+.orange_box_title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 17px;
+    color: #F59B26;
+}
+.library-card-style{
+    border: none;
+}
+.library-card-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 17px;
+    color: #707070;
+}
+.library-card-style{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 16px;
+    align-items: center;
+    color: #B4B4B4;
+}
+a.inside-book-button{
+    color: #FFFFFF;
+}
+
+.loginModal-style{
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+}
+.close-icon{
+    font-size: 17px;
+    color: #E82D00;
+}
+.remove-border{
+    border: none;
+}
+.login-img{
+    width: 30%;
+}
+.title-loginModal{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 19px;
+    color: #F59B26;
+}
+.text-loginModal{
+ font-family: Tajawal-Regular, sans-serif;
+    color: #707070;
+    font-size: 17px;
+}
+.login-text-button{
+    font-family: Tajawal-Bold, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+a.login-button:hover{
+    color: #FFFFFF;
+}
+.login-title-modal{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #222836;
+}
+.login-text-modal{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 14px;
+    color: #848484;
+}
+label.label-modal{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 13px;
+    color: #848484;
+}
+input.input-modal{
+    background: #F4F4F4 !important;
+    border: none !important;
+    border-radius: 23px !important;
+    width: 100% !important;
+}
+.login-button-modal{
+    background: #4682FC;
+    border-radius: 23px;
+    box-shadow: 0 0 7px #00000029;
+    padding: 6px 30px 9px 30px
+}
+.login-button{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+a.login-button:hover{
+    color: #FFFFFF;
+}
+.forgot-text{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 12px;
+    color: #848484;
+}
+.contactUs-modal{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 12px;
+    color: #848484;
+}
+a.contactUs-modal:hover{
+    color: #848484;
+}
+.video-img-card{
+    width: 100%;
+}
+.book-img-card{
+    width: 50%;
+}
+.test-modal2{
+    display: none;
+}
+
+
+/* Mobile View */
+@media (max-width:900px) {
+    .bg-title-div {
+        height: 65px;
+    }
+    .page-title{
+        font-size: 23px;
+    }
+    .title-div{
+        top: 30px;
+    }
+    .sure-login-modal {
+        right: 1px;
+        top: 1px;
+        height: 424px;
+    }
+}

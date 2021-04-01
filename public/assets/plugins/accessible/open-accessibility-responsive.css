@@ -1,0 +1,30 @@
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+  .open-accessibility-collapsed .open-accessibility-container{
+    border-radius: 0 50% 50% 0 !important;
+  }
+  .open-accessibility{
+    top: 50% !important;
+  }
+  .open-accessibility.open-accessibility-collapsed .open-accessibility-container {
+    width: 50px;
+    height: 55px;
+    border-radius: 0 50% 50% 0;
+    color: #fff;
+    background-color: #2196F3;
+  }
+  .open-accessibility-expand-button{
+    line-height: 0 !important;
+  }
+  .open-accessibility{
+    left: 0 !important;
+  }
+.open-accessibility-close-button {
+      height: 50px !important;
+    }
+ .open-accessibility .open-accessibility-menu, .open-accessibility.open-accessibility-expanded .open-accessibility-container {
+    height: 800px !important;
+    width: 100% !important;
+    position: fixed;
+    z-index: 9999;
+  }
+}

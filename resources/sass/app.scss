@@ -1,0 +1,15 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.border-error {
+    border: 1px solid #d30000;
+}
+.select2-container {
+    width: 100% !important;
+}
+.dataTables_wrapper .col-sm-12 {
+    overflow-x: auto;
+}

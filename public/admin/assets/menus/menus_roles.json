@@ -1,0 +1,7 @@
+{
+    "roles": [
+        "super_user",
+        "secretary",
+        "teacher"
+    ]
+}

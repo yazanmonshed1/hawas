@@ -1,0 +1,711 @@
+.image-background-section {
+    background-image: url("../../../images/platform/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.platform-image-section {
+    position: relative;
+    bottom: 30px;
+}
+.card-image-style {
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+}
+.card-size {
+    height: 100%;
+}
+.column-style {
+    display: flex;
+    flex-direction: column;
+}
+.card-style-flex {
+    flex: 1;
+}
+.title-of-card {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 20px;
+    color: #4682fc;
+}
+.platform-book-title {
+    font-family: Amiri-Bold, sans-serif;
+    color: #707070;
+}
+.card-background-content-blue-img {
+    background-image: url("../../../images/platform/blue-card-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px 13px 0 0;
+    width: 100%;
+}
+.profile-img {
+    width: 90px;
+}
+.edit-profile-div {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+.edit-profile-icon {
+    font-size: 18px;
+    color: #f59b26;
+}
+.student-name {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.student-class {
+    font-family: Amiri, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.school-name {
+    font-family: Amiri, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.last-page-box {
+    background: #eff4ff;
+    border-radius: 5px;
+}
+.last-page-text {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 14px !important;
+    color: #707070;
+}
+.book-name {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 14px;
+    color: #5f94ff;
+}
+.num-page {
+    font-family: Amiri, sans-serif;
+    color: #707070;
+    font-size: 13px;
+}
+.back-book-button-div {
+    background: #4682fc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.back-book-button {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+a.back-book-button:hover {
+    color: #ffffff;
+}
+.image-book-in-button {
+    width: 20px;
+}
+.arrow-in-button {
+    width: 25px;
+}
+.no_border_nav {
+    border: none;
+}
+.activity-text {
+    font-family: Amiri;
+    font-size: 15px;
+    color: #707070;
+}
+.activity-border {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/* Scroll Style */
+.scroll-div {
+    overflow-y: scroll;
+    height: 415px;
+    direction: initial;
+}
+
+/* width */
+.scroll-div::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.scroll-div::-webkit-scrollbar-track {
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+/* Handle */
+.scroll-div::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+.scroll-div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.book-title-img {
+    width: 70px;
+}
+.class-text {
+    font-family: Amiri, sans-serif;
+    color: #707070;
+    font-size: 15px;
+}
+.lamp-div {
+    background-color: #52cfcc;
+    border-radius: 5px;
+}
+.activity-num {
+    font-family: Amiri-Bold, sans-serif;
+    color: #ffffff;
+}
+.page-div {
+    background-color: #f59b26;
+    border-radius: 5px;
+}
+.page-num {
+    font-family: Amiri-Bold, sans-serif;
+    color: #ffffff;
+}
+.arrow-box-div {
+    border: 1px solid #a2a2a2;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #00000029;
+    opacity: 0.55;
+}
+.arrow-box-icon {
+    font-size: 25px;
+    color: #a2a2a2;
+    padding-top: 6px;
+}
+.page-title-activity {
+    font-family: Amiri-Bold;
+    color: #707070;
+}
+.course-title {
+    font-family: Amiri-Bold;
+    font-size: 25px;
+    color: #f59b26;
+}
+.hawas-above-box {
+    font-family: Amiri-Bold, sans-serif;
+    color: #ffffff;
+    background-color: #4682fc;
+    padding: 8px;
+    font-size: 25px;
+    width: 50%;
+    margin-right: 59px;
+}
+.hawas-under-box {
+    font-family: Amiri-Bold, sans-serif;
+    color: #ffffff;
+    background-color: #4682fc;
+    padding: 8px;
+    font-size: 25px;
+    width: 50%;
+    margin-right: 47px;
+}
+.row-border-course {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.circle-div {
+    border: 5px dashed #dedede;
+    border-radius: 50%;
+}
+.story-text {
+    /* text-align: right; */
+}
+.story-text p,
+.story-text li {
+    font-family: Amiri;
+    font-size: 18px;
+    color: #707070;
+    line-height: 2.3;
+}
+.story-text li {
+    list-style: inherit;
+}
+.course-name-active {
+    color: #4682fc !important;
+}
+.match-word-to-image-image {
+    position: relative;
+}
+
+.match-word-to-image-image .arrow-match {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.course-activity-title {
+    font-family: Amiri-Bold, sans-serif;
+    color: #52cfcc;
+    font-size: 28px;
+}
+.arrow-mouth-match {
+    position: absolute;
+    top: 26%;
+    right: 69%;
+}
+.arrow-hand-match {
+    position: absolute;
+    top: 59%;
+    right: 69%;
+}
+.arrow-nose-match {
+    position: absolute;
+    top: 93%;
+    right: 68%;
+}
+.arrow-eye-match {
+    position: absolute;
+    top: 26%;
+    right: 69%;
+}
+.arrow-ear-match {
+    position: absolute;
+    top: 59%;
+    right: 69%;
+}
+
+.hawas-box-match {
+    background-color: #cbcbcb;
+    border: 1px solid #dedede;
+    max-width: 200px;
+}
+.hawas-box-match.active {
+    background-color: #4682fc !important;
+}
+.hawas-text {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.finished-button {
+    font-family: Amiri-Bold, sans-serif;
+    background-color: #f59b26;
+    border-radius: 33px;
+    border: 1px solid;
+    font-size: 19px;
+    opacity: 1;
+    box-shadow: 0 0 8px #00000029;
+    color: #ffffff;
+    width: 100%;
+    padding: 13px 45px 10px 45px;
+}
+.finished-button:disabled {
+    opacity: 0.41;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.circle-color {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+/*.circle-color.red{
+   background-color: #e73e1f;
+    box-shadow: 0 0 15px #b62b10;
+}
+.circle-color.yellow{
+    background-color: #fedf3a;
+    box-shadow: 0 0 15px #fedf3a;
+}
+.circle-color.green{
+    background-color: #66d12b;
+    box-shadow: 0 0 15px #66d12b;
+}
+.circle-color.blue{
+    background-color: #09a2fb;
+    box-shadow: 0 0 15px #09a2fb;
+}
+.circle-color.purple{
+    background-color: #2857d5;
+    box-shadow: 0 0 15px #2857d5;
+}*/
+.video-style {
+    border-radius: 7px;
+}
+.label-answer-div {
+    margin-right: 34px;
+}
+/* Memory Game Style */
+.memory-game {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.deck {
+    width: 85%;
+    background: none !important;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 150px;
+    width: 17%;
+    margin: 0.2rem 0.2rem;
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none !important;
+}
+
+.deck .card.open {
+    transform: rotateY(0);
+    cursor: default;
+    animation-name: flipInY;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-duration: 0.75s;
+}
+
+.deck .card.show {
+    font-size: 33px;
+}
+
+.deck .card.match {
+    cursor: default;
+    font-size: 33px;
+    animation-name: rubberBand;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-duration: 0.75s;
+}
+
+.deck .card.unmatched {
+    animation-name: pulse;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-duration: 0.75s;
+    background: #e2043b;
+}
+
+.deck .card.disabled {
+    pointer-events: none;
+    opacity: 0.9;
+}
+.deck .card:nth-child(odd) {
+    background-image: url("../../../images/platform/memory-card-light.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 17% !important;
+    height: 150px !important;
+}
+
+.deck .card:nth-child(even) {
+    background-image: url("../../../images/platform/memory-card-dark.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 17% !important;
+    height: 150px !important;
+}
+
+.deck .card {
+    border: none;
+}
+
+.true-div {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 23px;
+    color: #52cf6f;
+}
+.false-div {
+    font-family: Amiri-Bold;
+    font-size: 23px;
+    color: red;
+    display: none;
+}
+.title-match-question {
+    font-family: Amiri;
+    font-size: 18px;
+    color: #a2a2a2;
+}
+.border-of-question {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    text-align: right;
+    padding: 6px 12px 9px 7px;
+}
+.text-of-question {
+    font-family: Amiri;
+    font-size: 17px;
+    color: #707070;
+}
+.num-of-question {
+    font-family: Amiri;
+    font-size: 17px;
+    color: #f59b26;
+}
+.dog-paint-img {
+    width: 75%;
+}
+
+.answer-box-match {
+    background-color: #cbcbcb;
+    border: 1px solid #dedede;
+    /*border-radius: 5px;*/
+    display: inline-block;
+    width: 110px;
+    /* height: 50px; */
+    margin-right: 20px;
+}
+.answer-box-match.active {
+    background-color: #4682fc !important;
+}
+.answer-text-in-box {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.answer-text-in-box.active {
+    background-color: #4682fc !important;
+    height: 100%;
+    width: 100%;
+}
+.question-text {
+    font-family: Amiri, sans-serif;
+    font-size: 24px;
+    color: #707070;
+}
+.next-div {
+    padding-left: 30px;
+}
+.back-div {
+    padding-right: 30px;
+}
+.continue-text {
+    font-family: Amiri;
+    color: #52cfcc;
+    font-size: 18px;
+}
+.continue-arrow {
+    color: #52cfcc;
+    font-size: 17px;
+}
+
+/* Radio Button */
+.radio-answer {
+    position: relative;
+    padding-left: 35px;
+    padding-right: 28px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #707070;
+    font-family: Tajawal-Regular, sans-serif;
+}
+
+/* Hide the browser's default radio button */
+.radio-answer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-answer:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-answer input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-answer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-answer .checkmark:after {
+    top: 5px;
+    right: 4px;
+    width: 7px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+.radio-answer-active {
+    color: #4682fc;
+}
+.shape-div {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 100px;
+}
+.piece-box {
+    background-color: #cbcbcb;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    margin-right: 11px;
+}
+.piece-box.active {
+    background-color: #4682fc !important;
+}
+.piece-box-text {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+.loading-text {
+    font-family: Amiri-Bold, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #707070;
+}
+.div-change {
+    opacity: 0.2;
+    pointer-events: none;
+}
+.loading-ajax {
+    position: absolute;
+    top: 30%;
+    display: none;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 900px) {
+    .image-background-section {
+        height: 80px;
+    }
+    .hawas-above-box,
+    .hawas-under-box {
+        margin-right: 72px;
+    }
+    /* .card-size{
+        height: 86.5%;
+    }*/
+    .hawas-box-match {
+        margin: auto;
+    }
+    .circle-color {
+        display: inline-block;
+        margin: 8px;
+        width: 30px;
+        height: 30px;
+    }
+    .brush-img {
+        /* width: 15%; */
+    }
+    .dog-paint-img {
+        width: 100% !important;
+    }
+    .deck .card:nth-child(even) {
+        width: 45% !important;
+    }
+    .deck .card:nth-child(odd) {
+        width: 45% !important;
+    }
+    .shape-div {
+        width: 75px;
+    }
+}
+
+.story-text .image-style-side {
+    float: right;
+    margin-left: var(--ck-image-style-spacing);
+    padding-left: 15px;
+}
+
+.story-text .image-style-align-left {
+    float: left;
+    margin-right: var(--ck-image-style-spacing);
+}
+
+.story-text .image-style-align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story-text .image-style-align-right {
+    float: right;
+    margin-left: var(--ck-image-style-spacing);
+}
+.story-text .image-style-side,
+.story-text .image-style-align-left,
+.story-text .image-style-align-center,
+.story-text .image-style-align-right {
+    max-width: 50%;
+}
+.story-text li {
+    text-align: left !important;
+    direction: ltr !important;
+}
+li[style*="text-align: right;"] {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+::backdrop {
+    z-index:0;  
+    background-color: white !important;
+}
+
+html, *:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
+    background-color: white !important;
+    z-index:1;
+}
+
+.rotate-45 {
+    transform: rotateZ(45deg);
+}

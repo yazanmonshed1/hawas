@@ -1,0 +1,14 @@
+{
+    "Arabic": {
+        "slug": "ar",
+        "display_name": "Arabic",
+        "dir": "rtl",
+        "flag": "https:\/\/www.countryflags.io\/sa\/flat\/64.png"
+    },
+    "English": {
+        "slug": "en",
+        "display_name": "English",
+        "dir": "ltr",
+        "flag": "https:\/\/www.countryflags.io\/gb\/flat\/64.png"
+    }
+}

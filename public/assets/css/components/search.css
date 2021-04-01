@@ -1,0 +1,101 @@
+.bg-title-search-div{
+    background-image: url("../../images/lightBlue-bg.png");
+    width: 100%;
+    height:169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-search-div{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #F59B26;
+}
+.color-yellow {
+    color: #F59B26;
+}
+.page-search-title{
+    position: absolute;
+    top: 61%;
+    right: 43%;
+}
+.search-title{
+    font-family: Tajawal-Bold, sans-serif;
+    color: #4682FC;
+    font-size: 18px;
+}
+.search-page-container{
+    padding: 4px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #F4F4F4;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 23px;
+}
+input.search-page{
+    width: 100%;
+    border: none;
+    padding: 5px 17px 5px 20px !important;
+    outline: none;
+}
+.search-page-button {
+    position: absolute;
+    left: 5px;
+    background: #4682FC !important;
+    border: 1px solid #4682FC !important;
+    border-radius: 50%;
+    bottom: 4px;
+    padding: 4px 9px;
+}
+.search-page-icon{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.search-card-style{
+    border: none;
+}
+
+.search-card-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 17px;
+    color: #707070;
+}
+.search-card-text{
+    font-family: Tajawal-Regular, sans-serif;
+    font-size: 15px;
+    color: #B4B4B4;
+}
+.moreButton{
+    font-family: Tajawal-Medium,sans-serif;
+    padding: 5px 37px 2px 37px;
+    background: #52CFCC;
+    color: white !important;
+    border-radius: 21px;
+}
+a.more-link-button{
+    color: #FFFFFF;
+}
+.book-img-card{
+    width: 55%;
+}
+.search-img-card{
+    width: 100%;
+}
+.result-search-word{
+    color: #4682FC;
+}
+@media (max-width: 900px) {
+    .page-search-title {
+        top: 47%;
+        right: 34%;
+    }
+
+    .title-search-div {
+        font-size: 25px;
+    }
+    .bg-title-search-div{
+        height:85px;
+    }
+}

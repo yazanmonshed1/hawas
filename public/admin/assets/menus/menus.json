@@ -1,0 +1,140 @@
+{
+    "super_user": {
+        "programs": {
+            "classes": "fa fa-envelope-open",
+            "link_type": "dynamic",
+            "link": "admin.programs.index"
+        },
+        "messages": {
+            "classes": "fa fa-envelope",
+            "link_type": "dynamic",
+            "link": "admin.messages.index"
+        },
+        "sliders": {
+            "classes": "fa fa-home",
+            "link_type": "dynamic",
+            "link": "admin.sliders.index",
+            "permission": "browse sliders"
+        },
+        "blogs": {
+            "classes": "fa fa-rss",
+            "link_type": "dynamic",
+            "link": "admin.blogs.index",
+            "permission": "browse blogs"
+        },
+        "channel": {
+            "classes": "fa fa-photo-video",
+            "link_type": "dynamic",
+            "link": "admin.channel-manager.index"
+        },
+        "plays": {
+            "classes": "fa fa-photo-video",
+            "link_type": "dynamic",
+            "link": "admin.plays.index",
+            "permission": "browse plays"
+        },
+        "schools": {
+            "classes": "fa fa-building",
+            "permission": "browse schools",
+            "dropdown": {
+                "schools": {
+                    "classes": "fa fa-building",
+                    "link_type": "dynamic",
+                    "link": "admin.schools.index",
+                    "permission": "browse schools"
+                },
+                "grades": {
+                    "classes": "fa fa-graduation-cap",
+                    "link_type": "dynamic",
+                    "link": "admin.grades.index",
+                    "permission": "browse grades"
+                },
+                "users": {
+                    "classes": "fa fa-user",
+                    "link_type": "dynamic",
+                    "link": "admin.users.index",
+                    "permission": "browse users"
+                }
+            }
+        },
+        "library": {
+            "classes": "fa fa-briefcase",
+            "permission": "browse text_books",
+            "dropdown": {
+                "text_books": {
+                    "classes": "fa fa-book",
+                    "link_type": "dynamic",
+                    "link": "admin.text-books.index",
+                    "permission": "browse text_books"
+                },
+                "digital_books": {
+                    "label": "الكتب الرقمية",
+                    "classes": "fa fa-book",
+                    "link_type": "dynamic",
+                    "link": "admin.digital-books.index",
+                    "permission": "browse digital_books"
+                }
+            }
+        },
+        "about_us": {
+            "classes": "fa fa-cog",
+            "link_type": "dynamic",
+            "link": "admin.about-us-collapses.index",
+            "permission": "browse collapses"
+        },
+        "settings": {
+            "classes": "fa fa-cog",
+            "link_type": "dynamic",
+            "link": "admin.settings.index"
+        },
+        "permissions_and_roles": {
+            "classes": "fa fa-user",
+            "permission": "browse roles",
+            "dropdown": {
+                "roles": {
+                    "classes": "fa fa-users",
+                    "link_type": "dynamic",
+                    "link": "admin.roles.index",
+                    "permission": "browse roles"
+                },
+                "permissions": {
+                    "classes": "fa fa-lock",
+                    "link_type": "dynamic",
+                    "link": "admin.permissions.index",
+                    "permission": "browse permissions"
+                }
+            }
+        }
+    },
+    "secretary": {
+        "grades": {
+            "classes": "fa fa-graduation-cap",
+            "link_type": "dynamic",
+            "link": "admin.secretary.grades.index",
+            "permission": "browse grades",
+            "param": "user_id"
+        },
+        "users": {
+            "classes": "fa fa-user",
+            "link_type": "dynamic",
+            "link": "admin.users.index",
+            "permission": "browse users"
+        },
+        "teachers": {
+            "classes": "fa fa-user",
+            "link_type": "dynamic",
+            "link": "admin.teachers.index",
+            "permission": "browse users"
+        },
+        "school_books": {
+            "classes": "fa fa-user",
+            "link_type": "dynamic",
+            "link": "admin.secretary.books.index",
+            "permission": "browse digital_books"
+        }
+    },
+    "teacher": {
+        "custom_menu": "TeacherMenu",
+        "type": "widget"
+    }
+}

@@ -1,0 +1,76 @@
+.bg-title-contact-div{
+    background-image: url("../../images/lightBlue-bg.png");
+    width: 100%;
+    height:169px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-contact-div{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 35px;
+    color: #F59B26;
+}
+.page-contact-title{
+    position: absolute;
+    top: 61%;
+    right: 43%;
+}
+.contact-form-div{
+    background: #FFFFFF;
+    border-radius: 13px;
+    box-shadow: 0 0 8px #00000029;
+}
+.send-title{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 18px;
+    color: #222836;
+}
+input.input-contact{
+    background: #F4F4F4;
+    border-radius: 23px;
+    border: none;
+    width: 100%;
+}
+label.contact-label{
+    font-family: Tajawal-Bold, sans-serif;
+    font-size: 15px;
+    color: #848484;
+}
+.message-text{
+    background: #F4F4F4;
+    border-radius: 23px;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+.send-button{
+    font-family: Tajawal-Bold, sans-serif;
+    color: #FFFFFF;
+    background: #4682FC;
+    border-radius: 23px;
+    border: none;
+    box-shadow: 0 0 7px #00000029;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 13px;
+}
+.contact-img-div{
+    margin-top: 95px;
+}
+
+
+@media (max-width:900px) {
+    .contact-img-div{
+        margin-top: 0;
+    }
+    .bg-title-contact-div {
+        height: 65px;
+    }
+    .title-contact-div{
+        font-size: 20px;
+    }
+    .page-contact-title{
+        top: 50%;
+        right: 40%;
+    }
+}
